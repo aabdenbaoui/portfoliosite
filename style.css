@@ -33,5 +33,62 @@ header {
 }
 .navigation a:hover{
     color:purple;
-    /* font-size: 1.3em; */
+    transition: 1s ease;
+}
+section{
+    padding: 100px 200px;
+    color: #f0f0f0;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    background: url(images/background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.main h2 span{
+    margin-top: 7px;
+    display: inline-block;
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: #f0f0f0;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 650;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+.main-btn{
+    background-color: #3a6cf4;
+    text-decoration: none;
+    color:#f0f0f0;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0.9375em 2.1875em;
+    margin-top: 5px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 1s ease;
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: #f0f0f0;
+    font-size: 1.7em;
+    padding-right: 15px;
 }
