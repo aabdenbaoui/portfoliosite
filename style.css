@@ -6,7 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-header {
+.header-top {
     background-color: #f0f0f0;
     width: 100%;
     position: fixed;
@@ -24,14 +24,14 @@ header {
     color: #3a6cf4
 }
 
-.navigation a{
+.nav-top a{
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
     color: #3a6cf4;
     padding-left: 10px;
 }
-.navigation a:hover{
+.nav-top a:hover{
     color:purple;
     transition: 1s ease;
 }
@@ -47,7 +47,6 @@ section{
     background: url(images/background.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
 }
 .main h2{
     color: #f0f0f0;
@@ -91,4 +90,47 @@ section{
     color: #f0f0f0;
     font-size: 1.7em;
     padding-right: 15px;
+}
+/* .cards{
+    width: 100%;
+} */
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.card{
+    color: #3a6cf4;
+    width: 27em;
+    background-color: #f0f0f0;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 25%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px ;
+}
+.content {
+    display: flex;
+    flex-direction: center;
+    justify-content: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.card-top{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.card-top i{
+    padding-right: 5px;
+}
+.card-text ul li p span{
+    font-weight: 600;
+    color:#3a6cf4;
+    font-size: 1.1em;
+}
+.card-text ul li p{
+    font-size: 0.9em;
+    color: gray;
 }
